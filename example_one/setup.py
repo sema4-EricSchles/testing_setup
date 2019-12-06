@@ -8,7 +8,7 @@ setup(
     description="Just an example",
     long_description="nothing to see here",
     long_description_content_type="text/markdown",
-    url="https://github.com/sema4-EricSchles/",
+    url="https://github.com/sema4-EricSchles/testing_setup",
     author="Eric Schles",
     author_email="ericschles@gmail.com",
     license="MIT",
@@ -18,6 +18,5 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["example_one"],
-    include_package_data=True
+    py_modules=["testing"],
 )
